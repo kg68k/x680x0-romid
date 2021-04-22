@@ -1,0 +1,63 @@
+  <!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>X680x0 ROM 識別機</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="romdata.js"></script>
+<script src="romid.js"></script>
+</head>
+
+<body>
+<header>
+<h1>X680x0 ROM 識別機</h1>
+</header>
+
+<div id="file_info">
+  <p>ROM ファイル: <input id="input_file" type="file"></p>
+</div>
+
+<div id="error">
+  <p id="error_message"></p>
+</div>
+
+<div id="rom_info">
+  <p>ファイルサイズ:    <span class="info"    id="size"></span></p>
+  <p>ハッシュ(SHA-256): <span class="info ms" id="sha256"></span></p>
+  <p>種別:              <span class="info"    id="type"></span></p>
+  <p>機種:              <span class="info"    id="model"></span></p>
+  <p>アドレス:          <span class="info ms" id="address"></span></p>
+  <p>ファイル名:        <span class="info"    id="filename"></span></p>
+  <p>バージョン:        <span class="info"    id="version"></span></p>
+  <p>純正品:            <span class="info"    id="genuine"></span></p>
+  <p>内容:              <span class="info"    id="content"></span></p>
+  <p>備考:              <span class="info"    id="note"></span></p>
+  <p>URL:               <span class="info"    id="url"></span></p>
+  <p>書庫ファイル名:    <span class="info"    id="archive"></span></p>
+</div>
+
+<div id="notice">
+  <p>注意：</o>
+  <ul>
+    <li>ROMファイルをハッシュ値で比較し、一致するデータの情報を表示します。</li>
+    <li>間違った情報や足りない部分があるかもしれません。無保証につき各自の責任においてご利用ください。</li>
+    <li>URLや書庫ファイル名は同一データの代表的な情報を表示しているだけで、
+      指定したファイルがそこに由来しているとは限りません。</li>
+  </ul>
+</div>
+
+<footer>
+<h2>連絡先</h2>
+
+<div>
+  <p>立花@桑島技研 -
+    <a href="https://github.com/kg68k/x680x0-romid">GitHub</a>,
+    Twitter <a href="https://twitter.com/kg68k">@kg68k</a>
+  </p>
+</div>
+</footer>
+
+</body>
+</html>
