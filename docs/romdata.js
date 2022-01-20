@@ -253,6 +253,20 @@ this.RomData = [
   },
   {
     "size": 786432,
+    "sha256": "FA9E1ABE529440A94CEAD4B9F78AE4026CB752C2C865470F53D1F02AF9102912",
+    "type": "CGROM",
+    "model": "",
+    "address": "$f00000-$fbffff",
+    "filename": "CGROM.TMP",
+    "version": "2022-01-18",
+    "genuine": "false",
+    "content": "CGROM (without 6x12 ANK)",
+    "note": "IPAフォント",
+    "url": "https://twitter.com/haru_ino/status/1483084350094995456",
+    "archive": "cgrom_tmp.zip"
+  },
+  {
+    "size": 786432,
     "sha256": "D0CAAFFDDD7A7A934E1D5B3849DED47E0D48D5821CA9DCC86E267BCCD69E40BA",
     "type": "CGROM",
     "model": "XM6i EXPERT",
