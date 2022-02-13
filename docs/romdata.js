@@ -625,7 +625,7 @@ this.RomData = [
     "version": "1.0 (1987-05-07)",
     "genuine": "true",
     "content": "ROM Debugger v1.0, Human68k v1.00, IPL, IOCS v1.0, 6x12 ANK, ROMDISK",
-    "note": "IPLROM.DATと28バイト違う",
+    "note": "IPLROM.DAT(EXPERT)と28バイト違う",
     "url": "",
     "archive": ""
   },
@@ -639,7 +639,7 @@ this.RomData = [
     "version": "1.0 (1987-05-07)",
     "genuine": "true",
     "content": "ROM Debugger v1.0, Human68k v1.00, IPL, IOCS v1.0, 6x12 ANK, ROMDISK",
-    "note": "",
+    "note": "X68000 ACEも同一",
     "url": "http://www.retropc.net/x68000/software/sharp/x68bios/",
     "archive": "X68BIOSE.LZH"
   },
@@ -653,7 +653,7 @@ this.RomData = [
     "version": "1.0 (1987-05-07)",
     "genuine": "true",
     "content": "ROM Debugger v1.0, Human68k v1.00, IPL, IOCS v1.0, 6x12 ANK, ROMDISK",
-    "note": "IPLROM.DATと1バイト違う(SRAM初期化データ メモリ2MB)",
+    "note": "IPLROM.DAT(EXPERT)と1バイト違う(SRAM初期化データ メモリ2MB)",
     "url": "",
     "archive": ""
   },
