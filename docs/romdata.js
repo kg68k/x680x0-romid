@@ -611,7 +611,7 @@ this.RomData = [
     "version": "1.0 (1987-03-18)",
     "genuine": "true",
     "content": "ROM Debugger v1.0, Human68k v1.00, IPL, IOCS v1.0, 6x12 ANK, ROMDISK",
-    "note": "初代 初期型",
+    "note": "初代(初期型)",
     "url": "",
     "archive": ""
   },
@@ -639,7 +639,7 @@ this.RomData = [
     "version": "1.0 (1987-05-07)",
     "genuine": "true",
     "content": "ROM Debugger v1.0, Human68k v1.00, IPL, IOCS v1.0, 6x12 ANK, ROMDISK",
-    "note": "X68000 ACEも同一",
+    "note": "初代(後期型)/ACE/PROも同一",
     "url": "http://www.retropc.net/x68000/software/sharp/x68bios/",
     "archive": "X68BIOSE.LZH"
   },
