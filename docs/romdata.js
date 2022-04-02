@@ -658,6 +658,20 @@ this.RomData = [
     "archive": ""
   },
   {
+    "size": 262144,
+    "sha256": "B158208E8814255704349095AA7C7D4B2283ECAAAB1D7DD46A9CD6C35F915B15",
+    "type": "IPL ROM",
+    "model": "X68000 Compact",
+    "address": "$fc0000-$ffffff",
+    "filename": "XVIROMx.DAT",
+    "version": "1.2 (2022-03-25)",
+    "genuine": "false",
+    "content": "IPL, IOCS v1.2, SCSIIN IOCS",
+    "note": "Extended BIOS for X68000 XVI v1.34.21 2022/03/25",
+    "url": "",
+    "archive": "ExBIOS13421XVI.LZH"
+  },
+  {
     "size": 131072,
     "sha256": "901B9903752A85E3840CE9B8BCC743EF73A6608F64BBBB8195FD5AE6D510AE2C",
     "type": "IPL ROM",
