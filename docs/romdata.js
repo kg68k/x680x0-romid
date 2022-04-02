@@ -658,6 +658,34 @@ this.RomData = [
     "archive": ""
   },
   {
+    "size": 262144,
+    "sha256": "B158208E8814255704349095AA7C7D4B2283ECAAAB1D7DD46A9CD6C35F915B15",
+    "type": "IPL ROM",
+    "model": "X68000 Compact",
+    "address": "$fc0000-$ffffff",
+    "filename": "",
+    "version": "1.2 (2022-03-25)",
+    "genuine": "false",
+    "content": "IPL, IOCS v1.2, SCSIIN IOCS",
+    "note": "改造ROM",
+    "url": "",
+    "archive": ""
+  },
+  {
+    "size": 262144,
+    "sha256": "2412DA88E5B02100E5AD706408C7A4F3FACB821CB1A2DC388F0CD6EEE1986F2E",
+    "type": "IPL ROM",
+    "model": "X68000 Compact",
+    "address": "$fc0000-$ffffff",
+    "filename": "",
+    "version": "1.2 (2022-04-03)",
+    "genuine": "false",
+    "content": "IPL, IOCS v1.2, SCSIIN IOCS",
+    "note": "改造ROM",
+    "url": "",
+    "archive": ""
+  },
+  {
     "size": 131072,
     "sha256": "901B9903752A85E3840CE9B8BCC743EF73A6608F64BBBB8195FD5AE6D510AE2C",
     "type": "IPL ROM",
@@ -766,6 +794,20 @@ this.RomData = [
     "genuine": "false",
     "content": "ROM Debugger v2.32(part), IPL, IOCS v1.3, SCSIIN IOCS",
     "note": "IPL-ROM 1.3 Patch for Xellent30 0.0.4",
+    "url": "https://github.com/futtyt/IPL-ROM-1.3-for-Xellent30",
+    "archive": ""
+  },
+  {
+    "size": 131072,
+    "sha256": "E7420D7261A94FC55F82E8AC838C1E05C667A74884296D759B263273C94D447B",
+    "type": "IPL ROM",
+    "model": "X68030 series",
+    "address": "$fe0000-$ffffff",
+    "filename": "IPLROM30Xel.DAT",
+    "version": "1.3 (1992-11-27)",
+    "genuine": "false",
+    "content": "ROM Debugger v2.32(part), IPL, IOCS v1.3, SCSIIN IOCS",
+    "note": "IPL-ROM 1.3 Patch for Xellent30 0.0.5",
     "url": "https://github.com/futtyt/IPL-ROM-1.3-for-Xellent30",
     "archive": ""
   },
