@@ -224,6 +224,20 @@ this.RomData = [
     "archive": ""
   },
   {
+    "size": 2352,
+    "sha256": "853A97C55D96B7C5C26CD550FEE2822622B26D226F8DC34ABA30FA2B5FD75D68",
+    "type": "PXVDISK ROM",
+    "model": "PhantomX",
+    "address": "$ea9000-$ea992f",
+    "filename": "",
+    "version": "1.00 RC3",
+    "genuine": "false",
+    "content": "PhantomX VDISK ROM",
+    "note": "kernel.imgから抽出, メモリ範囲は$ea9fffまで",
+    "url": "http://retropc.net/gimons/phantomx/index.html",
+    "archive": "phantomx_100rc3.zip"
+  },
+  {
     "size": 786432,
     "sha256": "C4E47E1480AF0B00B330A49650480C8CAA34054A6E97DB7AE03CBADE9890185D",
     "type": "CGROM",
@@ -674,6 +688,20 @@ this.RomData = [
   {
     "size": 262144,
     "sha256": "2412DA88E5B02100E5AD706408C7A4F3FACB821CB1A2DC388F0CD6EEE1986F2E",
+    "type": "IPL ROM",
+    "model": "X68000 Compact",
+    "address": "$fc0000-$ffffff",
+    "filename": "",
+    "version": "1.2 (2022-04-03)",
+    "genuine": "false",
+    "content": "IPL, IOCS v1.2, SCSIIN IOCS",
+    "note": "改造ROM",
+    "url": "",
+    "archive": ""
+  },
+  {
+    "size": 262144,
+    "sha256": "21EA6B87D1E5734EB8C63B371B033F027B12F78C1734578AF52C57F4C8B9DC4F",
     "type": "IPL ROM",
     "model": "X68000 Compact",
     "address": "$fc0000-$ffffff",
