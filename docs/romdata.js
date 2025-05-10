@@ -378,6 +378,20 @@ this.RomData = [
     "archive": ""
   },
   {
+    "size": 786432,
+    "sha256": "",
+    "type": "CGROM",
+    "model": "X68000 Z",
+    "address": "$f00000-$fbffff",
+    "filename": "",
+    "version": "HACKER'S EDITION",
+    "genuine": "false",
+    "content": "CGROM (without 6x12 ANK)",
+    "note": "実機と同一フォントではないらしいが、詳細は非公開",
+    "url": "",
+    "archive": ""
+  },
+  {
     "size": 8192,
     "sha256": "FE6E700B91C290B19DA9AA4D35985F2D8F9686442E250686A95DA959088121FA",
     "type": "SCSI ROM",
@@ -630,6 +644,20 @@ this.RomData = [
     "archive": ""
   },
   {
+    "size": 131072,
+    "sha256": "A67C392E734172F56465AC0F5B36CAAB08D1E3BA377FA97582B47EA33DE330D0",
+    "type": "SCSI ROM",
+    "model": "",
+    "address": "$fc0000-$fdffff",
+    "filename": "ROM30.DAT",
+    "version": "2.06",
+    "genuine": "false",
+    "content": "SCSIIN IOCS(repeat 16 times)",
+    "note": "XM6Util 2.06で生成したSCSIINROM.DATを16回繰り返したもの",
+    "url": "",
+    "archive": "X68000 ROMs.7z"
+  },
+  {
     "size": 262144,
     "sha256": "A4A4EF661882A271E107AF2BD2EA87CADA8123AE12BE9771AAAC3A8AF697ABF7",
     "type": "IPL ROM",
@@ -782,6 +810,34 @@ this.RomData = [
     "note": "改造ROM, XVI用",
     "url": "",
     "archive": ""
+  },
+  {
+    "size": 262144,
+    "sha256": "81FDEC1EF7101FA2B3DE69B3F9948D15FB073BCB70E5138C956611F841516DEB",
+    "type": "IPL ROM",
+    "model": "X68030 series",
+    "address": "$fc0000-$ffffff",
+    "filename": "BIOS030.DAT",
+    "version": "1.3 (1992-11-27)",
+    "genuine": "false",
+    "content": "Human68k v2.15, FLOAT2.X v2.02, ROM Debugger v2.32, IPL, IOCS v1.3, SCSIIN IOCS",
+    "note": "X68030のCGROMにあるANK6x12フォントをIPL ROMに埋め込んだもの",
+    "url": "",
+    "archive": "ROMP_mod.zip"
+  },
+  {
+    "size": 262144,
+    "sha256": "9B28D906F1130C448E94445BD69EBA7FCF8933BF05A66CDCAC288B3C26DB557A",
+    "type": "IPL ROM",
+    "model": "X68030 series",
+    "address": "$fc0000-$ffffff",
+    "filename": "BIOS030.DAT",
+    "version": "1.3 (1992-11-27)",
+    "genuine": "false",
+    "content": "Human68k v2.15, FLOAT2.X v2.02, ROM Debugger v2.32, IPL, IOCS v1.3, SCSIIN IOCS",
+    "note": "ROM1.3をX68000機種で使えるように改造",
+    "url": "",
+    "archive": "ROMP_mod.zip"
   },
   {
     "size": 131072,
