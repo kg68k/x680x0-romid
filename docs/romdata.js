@@ -331,7 +331,7 @@ this.RomData = [
     "version": "2022-01-18",
     "genuine": "false",
     "content": "CGROM (without 6x12 ANK)",
-    "note": "IPAフォント",
+    "note": "IPAフォントから作成",
     "url": "https://twitter.com/haru_ino/status/1483084350094995456",
     "archive": "cgrom_tmp.zip"
   },
@@ -395,14 +395,14 @@ this.RomData = [
     "size": 786432,
     "sha256": "E1669A796EB80BA9FD800C566584B0322E875DA79ABE25D9FF0597A7ECC317B3",
     "type": "CGROM",
-    "model": "x68000.osaka",
+    "model": "WebX68k",
     "address": "$f00000-$fbffff",
     "filename": "cgrom.dat",
     "version": "",
     "genuine": "false",
     "content": "CGROM (without 6x12 ANK)",
-    "note": "",
-    "url": "https://x68000.osaka/",
+    "note": "東雲フォントから作成",
+    "url": "https://github.com/uraraworks/WebX68k",
     "archive": ""
   },
   {
