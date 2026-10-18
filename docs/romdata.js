@@ -392,6 +392,20 @@ this.RomData = [
     "archive": ""
   },
   {
+    "size": 786432,
+    "sha256": "E1669A796EB80BA9FD800C566584B0322E875DA79ABE25D9FF0597A7ECC317B3",
+    "type": "CGROM",
+    "model": "x68000.osaka",
+    "address": "$f00000-$fbffff",
+    "filename": "cgrom.dat",
+    "version": "",
+    "genuine": "false",
+    "content": "CGROM (without 6x12 ANK)",
+    "note": "",
+    "url": "https://x68000.osaka/",
+    "archive": ""
+  },
+  {
     "size": 8192,
     "sha256": "FE6E700B91C290B19DA9AA4D35985F2D8F9686442E250686A95DA959088121FA",
     "type": "SCSI ROM",
